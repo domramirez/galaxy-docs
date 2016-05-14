@@ -8,7 +8,7 @@ Environment variables in Galaxy are managed using your app's `settings.json` fil
 
 <h3 id="common-env-variables">Commonly used environment variables</h3>
 
-The following environment variable are most commonly set for Galaxy apps:
+The following environment variables are most commonly set for Galaxy apps:
 
 - `MONGO_URL`: If you have any Meteor packages that requires a Mongo database, then this environment variable must be set. See your database provider instructions to determine the correct format and content for the URL.
 - `MONGO_OPLOG_URL`: This is an optional environment variable if you are using MongoDB for your application. This is a performance optimization that we recommend for production applications. Learn more here: https://meteorhacks.com/mongodb-oplog-and-meteor/
